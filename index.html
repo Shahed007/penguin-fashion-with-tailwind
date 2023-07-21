@@ -8,6 +8,19 @@
   </head>
   <body>
     <header class="bg-amber-100 px-5 md:px-32 py-16">
+      <nav
+        class="flex flex-col lg:justify-between lg:flex-row items-center mb-14 gap-8"
+      >
+        <img class="w-72" src="icons/logo.png" alt="Logo" />
+        <ul
+          class="flex flex-col items-center lg:flex-row gap-4 lg:gap-14 text-base font-roboto font-semibold text-[#3C3C3C]"
+        >
+          <li>Home</li>
+          <li>Product</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
       <div
         class="flex items-center flex-col justify-center gap-10 md:flex-row md:justify-normal"
       >
@@ -45,7 +58,7 @@
         </div>
       </div>
     </header>
-    <main class="max-w-6xl mx-auto px-3 lg:px-0">
+    <main class="lg:max-w-6xl mx-auto px-3">
       <!-- Woman jacket -->
       <section class="mt-12">
         <h2 class="text-5xl text-[#363958] font-bebas uppercase">
@@ -318,7 +331,64 @@
         </div>
       </section>
 
-      <!-- SECTION PRODUCT DELAVERY -->
+      <!-- SECTION PRODUCT DELIVERY -->
+      <section class="mt-32">
+        <div
+          class="flex justify-between flex-col lg:flex-row gap-14 items-center"
+        >
+          <div class="flex flex-col gap-10 lg:w-1/2">
+            <div
+              class="flex gap-9 items-center flex-col md:flex-row shadow p-7 rounded text-center md:text-start"
+            >
+              <img src="./icons/house.png" class="w-24" alt="House Image 1" />
+              <div class="flex flex-col gap-3">
+                <h4 class="text-[#363958] font-bold text-2xl font-roboto">
+                  Find the Perfect Fit
+                </h4>
+                <p class="text-[#3E3E3E] text-base font-roboto md:w-3/4">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-9 items-center shadow p-7 rounded flex-col md:flex-row text-center md:text-start"
+            >
+              <img src="./icons/box.png" class="w-24" alt="House Image 1" />
+              <div class="flex flex-col gap-3">
+                <h4 class="text-[#363958] font-bold text-2xl font-roboto">
+                  Free Exchanges
+                </h4>
+                <p class="text-[#3E3E3E] text-base font-roboto md:w-3/4">
+                  One of the many reasons you can shop with peace of mind.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-9 items-center shadow p-7 rounded flex-col md:flex-row text-center md:text-start"
+            >
+              <img
+                src="./icons/question.png"
+                class="w-24"
+                alt="House Image 1"
+              />
+              <div class="flex flex-col gap-3">
+                <h4 class="text-[#363958] font-bold text-2xl font-roboto">
+                  Contact Our Seller
+                </h4>
+                <p class="text-[#3E3E3E] text-base font-roboto md:w-3/4">
+                  They are here to help you. That's quite literally what we pay
+                  them for.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/2">
+            <img src="images/shopping.png" class="w-full" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
     <script src="https://cdn.tailwindcss.com"></script>
